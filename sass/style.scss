@@ -1,0 +1,71 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body
+{   
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    overflow-x: hidden;
+    background: #000;
+}
+
+.cta_section
+{
+    background: url(https://ahmadjon.uz/images/cta-action.jpg) ;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+    text-align: center;
+    margin-bottom: 100px;
+    
+    h3
+    {
+        font-size: 30px;
+        color: blue;
+        line-height: 60px;
+    }
+
+    .btn
+    {
+        border: 1px solid white;
+        border-radius: 50px;
+        background: white;
+        font-size: 12px;
+        padding: 20px 30px;
+    }
+
+    .btn:hover
+    {
+        color: blue;
+        border: 1px solid blue;
+        background: none;
+    }
+}
+
+footer
+{
+    height: 15vh;
+    background: black;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+@import "./header";
+@import "./hero";
+@import "./about-me";
+@import "./service";
+@import "./portfolio";
+@import "./contact";
+@import "./testimonial";

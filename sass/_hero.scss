@@ -1,0 +1,31 @@
+.hero
+{
+    background: url(https://ahmadjon.uz/images/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 700px;
+    padding: 0;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+    .title
+    {
+        font-weight: 800;
+        font-size: 52px;
+    }
+
+    ul
+    {
+        display: flex;
+        justify-content: center;
+        a
+        {
+            color: white;
+        }
+    }
+}
